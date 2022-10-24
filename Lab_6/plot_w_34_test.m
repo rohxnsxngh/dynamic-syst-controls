@@ -1,0 +1,10 @@
+kp01=load("Sim3_w_34_kp_0.1");
+kp25=load("Sim3_w_34_kp_0.25");
+kp40=load("Sim3_w_34_kp_0.4");
+figure;
+plot(kp01.omega.time, kp01.omega.signals.values, 'DisplayName', 'kp 0.1');
+hold on;
+plot(kp25.omega.time, kp25.omega.signals.values, 'DisplayName', 'kp 0.25');
+plot(kp40.omega.time, kp40.omega.signals.values, 'DisplayName', 'kp 0.4');
+hold off;
+legend;
