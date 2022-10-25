@@ -1,9 +1,9 @@
-w_20 = load("Sim1_20.mat");
-w_34 = load("Sim1_34.mat");
-w_48 = load("Sim1_48.mat");
-w_62 = load("Sim1_62.mat");
-w_76 = load("Sim1_76.mat");
-w_90 = load("Sim1_90.mat");
+w_20 = load("Sim2_20.mat");
+w_34 = load("Sim2_34.mat");
+w_48 = load("Sim2_48.mat");
+w_62 = load("Sim2_62.mat");
+w_76 = load("Sim2_76.mat");
+w_90 = load("Sim2_90.mat");
 figure;
 plot(w_20.omega.time, w_20.omega.signals.values,'DisplayName', 'w = 20')
 hold on;
